@@ -1,44 +1,36 @@
-# UNIT-PROJECT-1
+# Smart Drive-Thru
 
 
-## Based on what you’ve learned until now , create a project of your choosing (impress us with your imagination) . This project must at least satisfy the following minimum requirements :
-
-- Must be interactive on CLI.
-- Use your coding skills in Python accurately.
-- Organize Your Code into modules & (or packages)
-- Use git & Github to track changes in your code.
-
-## Example Project :  An online Grocery Store :
-
-#### Overview : An online store that sells fruits to customers. This online store has 2 main users. The customer and the manager of the store . Each one of them should be able to do the following tasks for the store to function properly . 
-
-### Features & User Stories
-#### As a customer I should be able to do the following :
-- Browse  Products . 
-- View the product info (summary, specs, price, quantity , etc.)
-- Search for Products.
-- Get recommendations for my next purchase based on my purchase history.
-- Add Products to the shopping cart .
-- Remove a product from the shopping cart.
-- List the products in my shopping cart. 
-- Continue to checkout . 
-- Fill in my address for delivery.
-- Get receipt of my purchases.
-- Check delivery status . 
+## Smart Drive-Thru is a Python-based system that simulates an intelligent drive-thru restaurant experience , The project focuses on improving customer service by saving customer data, tracking visits, and managing loyalty points using JSON files. 
 
 
+### Features :
 
-#### Usage :
- Explain to the user how to use your project . 
- for example:
- - type in search product_name to search for a product.
- - type in list_products to show all the products in the grocery.
- - type in show product_name to get information about this product.
- - type in buy product_name to buy the product . 
- - and so on...
+- Register customers using name & car plate number
+- Store and retrieve previous orders
+- Track number of visits
+- Calculate and update loyalty points
+- Save data persistently using JSON
+- Handle user errors with try / except
 
 
-### For your project. Edit this README.md file to include your own project name,  overview, user stories, and usage. 
+### Core Concepts Used : 
+- Dictionaries & Lists
+- Functions & main()
+- File handling (JSON)
+- Exception handling
 
-### NOTE: before submitting the final project, please do the following command:
-`pip freeze > requirements.txt` to enable use to know & use the packages used in your project.
+### Project Structure : 
+- customer.py – Customer data & actions
+- restaurant.py – Orders & loyalty system
+- main.py – Program execution
+
+
+### Project Objectives :
+- Enhance the drive-thru ordering experience and reduce waiting time
+- Make reordering easier for returning customers
+- Build a simple customer database to track visits and order history
+- Increase customer loyalty through a points and rewards system
+- Help restaurants understand customer behavior and improve service
+
+
