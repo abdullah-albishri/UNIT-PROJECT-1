@@ -1,0 +1,33 @@
+{
+    "ABB1222": {
+        "name": "asjdh",
+        "plate": "ABB1222",
+        "last_visit": null,
+        "orders": [],
+        "visits": 1,
+        "loyalty_point": 10
+    },
+    "ABB1111": {
+        "name": "abdullah",
+        "plate": "ABB1111",
+        "last_visit": "2026-03-08 00:46:08",
+        "orders": [
+            "coffee day",
+            "V60",
+            "latte",
+            "V60",
+            "coffee day",
+            "V60",
+            "latte",
+            "coffee day",
+            "V60",
+            "latte",
+            "coffee day",
+            "coffee day",
+            "coffee day",
+            "V60"
+        ],
+        "visits": 4,
+        "loyalty_point": 40
+    }
+}
