@@ -5,7 +5,7 @@
 
 
 ### Project Idea 
-#### Instead of waiting for a waiter or standing in a queue, the customer is identified by their car plate. The system recognizes them, remembers their usual order, and applies loyalty discounts automatically.
+- Instead of waiting for a waiter or standing in a queue, the customer is identified by their car plate. The system recognizes them, remembers their usual order, and applies loyalty discounts automatically.
 
 
 ### Objectives 

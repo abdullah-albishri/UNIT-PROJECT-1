@@ -4,7 +4,7 @@ from utils import info, success, warning, error, colored
 
 def main():
     '''This function is the starting point of the program.'''
-    my_restaurant = Restaurant()  # create restaurant object (holds customers, menu, orders, etc.)
+    my_restaurant = Restaurant()  # create restaurant object (stores customers, menu, orders, etc.)
 
     while True:
         print(colored("\n--- DriveGo ---", "\033[96m"))  # cyan header
@@ -34,13 +34,13 @@ def main():
 
             if plate in my_restaurant.customers:
                 customer = my_restaurant.customers[plate]
-                print(success(f"\nWelcome back {customer.name}!"))
+                print(success(f"\nWelcome {customer.name}!"))
 
                 current_order = []
-                skip_menu = False  # flag: هل نتخطى المنيو ونروح مباشرة للفاتورة
+                skip_menu = False  # flag: whether to skip the menu and go directly to the bill
 
                 if customer.orders:
-                    #  last_order  قائمة تحتوي كل أصناف الجلسة الأخيرة
+                    # last_order contains all items from the last order session
                     last_order = customer.orders[-1]
                     last_time = customer.last_visit
                     print(f"Your last visit was: {''.join(last_time)}")
@@ -49,15 +49,15 @@ def main():
                     repeat = input("Do you want the same order? (y/n): ")
 
                     if repeat.lower() == "y":
-                        #  نضيف كل أصناف الطلب السابق 
+                        # add all items from the previous order
                         current_order.extend(last_order)
 
-                        #  نسأل إذا يبغى يضيف أصناف إضافية
+                        # ask if the customer wants to add more items
                         add_more = input("Do you want to add more items to your order? (y/n): ")
                         if add_more.lower() != "y":
                             skip_menu = True  
 
-                #  نعرض المنيو فقط إذا skip_menu = False
+                # show the menu only if skip_menu = False
                 if not skip_menu:
                     while True:
                         my_restaurant.show_menu()
@@ -65,7 +65,7 @@ def main():
                         try:
                             item_choice = int(input("Choose item number: "))
 
-                            #  خيار الإلغاء
+                            # cancel option
                             if item_choice == 0:
                                 if current_order:
                                     print(info("No items added. Keeping your previous order."))

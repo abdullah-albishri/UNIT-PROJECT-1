@@ -101,5 +101,35 @@
         "orders": [],
         "visits": 0,
         "loyalty_point": 0
+    },
+    "SSS1111": {
+        "name": "sss111",
+        "plate": "SSS1111",
+        "last_visit": "2026-03-10 00:58:20",
+        "orders": [
+            [
+                "V60"
+            ]
+        ],
+        "visits": 1,
+        "loyalty_point": 10
+    },
+    "NNN1111": {
+        "name": "nnn1111",
+        "plate": "NNN1111",
+        "last_visit": "2026-03-10 01:22:31",
+        "orders": [
+            [
+                "V60"
+            ],
+            [
+                "V60"
+            ],
+            [
+                "V60"
+            ]
+        ],
+        "visits": 3,
+        "loyalty_point": 30
     }
 }
