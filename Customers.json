@@ -1,33 +1,105 @@
 {
-    "ABB1222": {
-        "name": "asjdh",
-        "plate": "ABB1222",
-        "last_visit": null,
-        "orders": [],
+    "BB111": {
+        "name": "Baraa",
+        "plate": "BB111",
+        "last_visit": "2026-03-09 23:34:22",
+        "orders": [
+            [
+                "V60"
+            ],
+            [
+                "V60"
+            ],
+            [
+                "V60",
+                "Mocha"
+            ],
+            [
+                "coffee day",
+                "latte"
+            ],
+            [
+                "coffee day",
+                "latte"
+            ],
+            [
+                "coffee day",
+                "latte",
+                "V60"
+            ],
+            [
+                "coffee day",
+                "latte",
+                "V60"
+            ],
+            [
+                "coffee day",
+                "latte",
+                "V60"
+            ],
+            [
+                "coffee day",
+                "latte",
+                "V60"
+            ],
+            [
+                "coffee day",
+                "latte",
+                "V60"
+            ],
+            [
+                "coffee day",
+                "latte",
+                "V60"
+            ],
+            [
+                "coffee day",
+                "latte",
+                "V60"
+            ],
+            [
+                "coffee day",
+                "coffee day",
+                "coffee day"
+            ]
+        ],
+        "visits": 13,
+        "loyalty_point": 30
+    },
+    "A11": {
+        "name": "Ali",
+        "plate": "A11",
+        "last_visit": "2026-03-09 18:17:52",
+        "orders": [
+            [
+                "coffee day",
+                "V60"
+            ],
+            [
+                "V60"
+            ]
+        ],
+        "visits": 2,
+        "loyalty_point": 20
+    },
+    "S1": {
+        "name": "s1",
+        "plate": "S1",
+        "last_visit": "2026-03-09 20:01:59",
+        "orders": [
+            [
+                "V60"
+            ]
+        ],
         "visits": 1,
         "loyalty_point": 10
     },
-    "ABB1111": {
-        "name": "abdullah",
-        "plate": "ABB1111",
-        "last_visit": "2026-03-08 00:46:08",
-        "orders": [
-            "coffee day",
-            "V60",
-            "latte",
-            "V60",
-            "coffee day",
-            "V60",
-            "latte",
-            "coffee day",
-            "V60",
-            "latte",
-            "coffee day",
-            "coffee day",
-            "coffee day",
-            "V60"
-        ],
-        "visits": 4,
-        "loyalty_point": 40
+    "AA11": {
+        "name": "aa11",
+        "plate": "AA11",
+        "last_visit": null,
+        "orders": [],
+        "visits": 0,
+        "loyalty_point": 0
     }
 }
